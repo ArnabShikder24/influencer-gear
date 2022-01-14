@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /* Universal code */
 * {
@@ -119,6 +120,53 @@ main {
     background-position: center center; 
     background-repeat: no-repeat;
 }
+/*Start Animaton  */
+.animation {
+    margin: 10px 0;
+}
+.animation ul {
+    display: flex;
+}
+.animation ul li {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 10px;
+    animation: go 2s linear infinite;
+}
+@keyframes go {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0)
+    }
+}
+.animation ul li:nth-child(1) {
+    animation-delay: 1s;
+    background-color: blueviolet;
+}
+.animation ul li:nth-child(2) {
+    animation-delay: .9s;
+    background-color: #e74c3c;
+}
+.animation ul li:nth-child(3) {
+    animation-delay: .8s;
+    background-color: blueviolet;
+}
+.animation ul li:nth-child(4) {
+    animation-delay: .7s;
+    background-color: #e74c3c;
+}
+.animation ul li:nth-child(5) {
+    animation-delay: .6s;
+    background-color: blueviolet;
+}
+/*End Animaton  */
 /* End Header section */
 /* Start logos bar */
 .logo-section {
@@ -196,6 +244,49 @@ hr {
     color: #e74c3c;
 }
 /* End collection section */
+/* Start Modern section */
+.modern-content {
+    font-family: 'Roboto', sans-serif;
+}
+.modern-content h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #e74c3c;
+}
+.cameras {
+   display: flex;
+   justify-content: space-between;
+   margin: 50px 0;
+   padding-bottom: 40px;
+}
+.camera {
+    width: 500px;
+    display: flex;
+}
+.camera img {
+    width: 250px;
+    border-radius: 10px;
+}
+.box h3 {
+    font-size: 24px;
+    color: #3A3A3A;
+    margin: 0 0 20px 20px;
+}
+.box p {
+    text-align: justify;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin: 0 0 20px 20px;
+}
+.box a {
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/* End Modern section */
 /* Start footer section */
 .footer {
     text-align: center;
