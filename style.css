@@ -379,6 +379,7 @@ Responsive devices code
     }
     .right-content img {
         margin-top: 40px;
+        margin-left: 35px;
     }
     .banner {
         flex-wrap: wrap;
