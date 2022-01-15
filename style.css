@@ -374,6 +374,15 @@ Responsive devices code
     .menu {
         display: none;
     }
+    .logo-section {
+        margin-top: -70px;
+    }
+    .right-content img {
+        margin-top: 40px;
+    }
+    .banner {
+        flex-wrap: wrap;
+    }
     /* Start collection section */
     .collection-cards {
         display: grid;
@@ -389,6 +398,11 @@ Responsive devices code
         100%{
             transform: translateX(0)
         }
+    }
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
     }
  }
 
