@@ -317,3 +317,82 @@ hr {
     margin-right: 10px;
 }
 /* End footer section */
+
+/*----------------------- 
+Responsive devices code
+---------------------- */
+
+/* Small devices (phones) */
+@media (max-width: 576px) { 
+    main {
+        padding: 40px 0;
+    }
+    /* Start Navigation */
+    .navigation {
+        height: 90px;
+    }
+    .menu {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .left-content h1 {
+        font-size: 45px;
+    }
+    .right-content {
+        margin-top: 60px;
+    }
+    .logo-section {
+        display: none;
+    }
+    .right-content img {
+        width: 95%;
+        text-align: center;
+    }
+    .banner {
+        padding: 0 20px;   
+        flex-wrap: wrap;
+    }
+    /* Start collection section */
+    .collection-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Start Modern section */
+    .camera {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .box {
+        padding: 20px 10px;
+    }
+ }
+
+/* Medium devices (tablets) */
+@media (min-width:577px) and (max-width: 768px) { 
+    .menu {
+        display: none;
+    }
+    /* Start collection section */
+    .collection-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @keyframes go {
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(150px);
+        }
+        100%{
+            transform: translateX(0)
+        }
+    }
+ }
+
+ /* Large devices (desktops) */
+@media (min-width: 769px) and (max-width:1440px) { 
+
+ }
