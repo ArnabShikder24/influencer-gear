@@ -27,6 +27,7 @@ body {
     position: fixed;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     background: #ffffff;
+    z-index: 1;
 }
 .nav {
     display: flex;
@@ -123,6 +124,7 @@ main {
 /*Start Animaton  */
 .animation {
     margin: 10px 0;
+    z-index: 0;
 }
 .animation ul {
     display: flex;
@@ -168,6 +170,7 @@ main {
 }
 /*End Animaton  */
 /* End Header section */
+
 /* Start logos bar */
 .logo-section {
     margin-bottom: 90px;
@@ -184,6 +187,7 @@ hr {
     grid-gap: 30px;
 }
 /* End logos bar */
+
 /* Start collection section */
 .collection-cards {
     display: grid;
@@ -244,6 +248,7 @@ hr {
     color: #e74c3c;
 }
 /* End collection section */
+
 /* Start Modern section */
 .modern-content {
     font-family: 'Roboto', sans-serif;
@@ -257,12 +262,14 @@ hr {
 .cameras {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    margin: 50px 0;
    padding-bottom: 40px;
 }
 .camera {
     width: 500px;
     display: flex;
+    margin-bottom: 20px;
 }
 .camera img {
     width: 250px;
@@ -287,6 +294,7 @@ hr {
     margin-left: 20px;
 }
 /* End Modern section */
+
 /* Start footer section */
 .footer {
     text-align: center;
