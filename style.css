@@ -370,7 +370,7 @@ Responsive devices code
  }
 
 /* Medium devices (tablets) */
-@media (min-width:577px) and (max-width: 768px) { 
+@media (min-width:577px) and (max-width: 886px) { 
     .menu {
         display: none;
     }
@@ -404,9 +404,4 @@ Responsive devices code
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 30px;
     }
- }
-
- /* Large devices (desktops) */
-@media (min-width: 769px) and (max-width:1440px) { 
-
  }
